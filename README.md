@@ -31,3 +31,11 @@ We'll use two common methods:
     -   **Silhouette Plot:** Look for the number of clusters that yields the highest average silhouette width.
 
     -   **NbClust Results:** This provides a consensus based on multiple indices for the optimal number of clusters.
+
+**Conclusion:**
+
+From the Exploratory Data Analysis done, it's been gathered that the countries need to be clustered in 3 different priorities; high, mid and low priority, with core factors like **GDP per capita (`gdpp`)**, **Child Mortality and Life Expectancy (`life_expec`)** determining that countries with very low **GDP per capita (`gdpp`)**, high rate of **Child Mortality** and low **Life Expectancy (`life_expec`)** including but not limited to; **Pakistan**, **Togo**, **Yemen**, **Nigeria**, **Sierra Leone**, **Zambia**, **Togo**, **Mozambique**, **Iraq**..., are in direst need and thus fall under **High Priority**.
+
+The above stated factors dictate mid priority to include countries like; **Bangladesh**, **Barbados**, **Argentina**, **Bahamas**, **Ecuador**, **Venezuela**, **Turkey**, **Tunisia...** . And for low priority (those that could do without), there are countries like; **Switzerland**, **United States**, **United Kingdom**, **New Zealand**, **Japan**, **Kuwait**, **Malta**... .
+
+The proper allocation/distribution of resources across the 3 clusters largely determines the success or failure of **HELP**'s mission.
